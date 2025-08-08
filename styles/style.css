@@ -28,6 +28,7 @@
   height: 105px;
   padding: 0 5px;
 }
+
 .address {
   display: flex;
   flex-direction: column;
@@ -47,7 +48,6 @@
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
-  
 }
 
 .overlay {
@@ -67,8 +67,8 @@
   line-height: 115px;
   letter-spacing: 30px;
   text-transform: uppercase;
-
 }
+
 .aligned-text {
   display: block;
 }
@@ -137,13 +137,15 @@ button {
   letter-spacing: 0%;
   text-transform: uppercase;
 }
-ul {    
-  margin: 0;           
+
+ul {
+  margin: 0;
   padding: 0;
-  list-style: none;          
+  list-style: none;
 }
 
-.lots__card-list-item, .card-link {
+.lots__card-list-item,
+.card-link {
   height: 100%;
   color: white;
   text-decoration: none;
@@ -153,7 +155,6 @@ ul {
   display: flex;
   gap: 25px;
 }
-
 
 .card {
   width: 334px;
@@ -171,7 +172,7 @@ ul {
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
-  text-transform: uppercase;;
+  text-transform: uppercase;
 }
 
 .card__text {
@@ -308,8 +309,8 @@ ul {
   display: flex;
   justify-self: end;
   gap: 48px;
-  
 }
+
 .footer__social-icon {
   width: 48px;
   height: 48px;
